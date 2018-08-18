@@ -12,18 +12,18 @@ declare namespace ThinkSession {
      * get session
      * @memberOf SessionExtend
      */
-    session(name: string): Promise<string>;
+    session(name: string): Promise<any>;
     /**
      * set session
      * @memberOf SessionExtend
      */
-    session(name: string, value: string): Promise<string>;
+    session(name: string, value: any): Promise<any>;
 
     /**
      * delete the whole session
      * @memberOf SessionExtend
      */
-    session(name: null): Promise<string>;
+    session(name: null): Promise<any>;
   }
 }
 

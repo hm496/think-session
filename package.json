@@ -1,11 +1,7 @@
 {
-  "name": "think-session",
+  "name": "think-session2",
   "description": "Session for ThinkJS",
-  "version": "1.0.3",
-  "author": {
-    "name": "welefen",
-    "email": "welefen@gmail.com"
-  },
+  "version": "1.0.1",
   "scripts": {
     "test": "eslint index.js && nyc ava test/ ",
     "coverage": "nyc report --reporter=html",
@@ -17,12 +13,6 @@
       "babel-core/register"
     ]
   },
-  "contributors": [
-    {
-      "name": "welefen",
-      "email": "welefen@gmail.com"
-    }
-  ],
   "main": "index.js",
   "type": "index.d.ts",
   "dependencies": {
@@ -41,13 +31,13 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/thinkjs/think-session"
+    "url": "https://github.com/hm496/think-session"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.0.0"
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/thinkjs/think-session/issues"
+    "url": "https://github.com/hm496/think-session/issues"
   }
 }
