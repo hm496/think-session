@@ -1,7 +1,7 @@
 {
   "name": "think-session2",
   "description": "Session for ThinkJS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "eslint index.js && nyc ava test/ ",
     "coverage": "nyc report --reporter=html",
